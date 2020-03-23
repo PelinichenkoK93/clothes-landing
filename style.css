@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* .clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+} */
+
+body, html {
+    overflow-x: hidden;
+}
+
+header {
+    background: url(../img/first-bg.jpg) no-repeat center top / cover;
+    padding-bottom: 160px;
+}
+
+.container {
+    max-width: 930px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding-top: 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #fed136;
+    text-decoration: none;
+}
+
+ul li a .logo {
+    margin-right: 375px;
+}
+
+.toggle {
+    display: none;
+}
+
+.title__first {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 180px;
+}
+
+h1 {
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+
+.button {
+    background-color: #fed136;
+    color: #484543;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.title {
+    padding-top: 115px;
+    color:black;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.title h2 {
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-skills__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.main-skills__item > figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#shoes {
+    background-color: #f7f7f7;
+}
+
+.aboutus__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.aboutus__list__item1 div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.aboutus__list__item2 div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.last-text p {
+    margin-top: 115px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media screen and (max-width:765px) {
+
+    .title__first {
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    
+    h1 {
+        font-size: 50px;
+        margin: 5px;
+    }
+
+    .button {
+        width: 150px;
+        padding: 15px 0;
+        font-size: 12px;
+        margin-top: 25px;
+    }
+
+    header {
+        padding-bottom: 60px;
+    }
+
+    .title {
+        padding-top: 50px;
+        font-size: 12px;
+    }
+    
+    .title h2 {
+        font-size: 30px;
+    }
+
+    .main-skills__list {
+        flex-direction: column;
+    }
+
+    .main-skills__item > figure {
+        margin-bottom: 40px;
+    }
+
+    .last-text p {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-size: 5px;
+    }
+
+    .aboutus__list__item1 div {
+        display: inline;
+        vertical-align: middle;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .aboutus__list__item2 div {
+        display: inline;
+        vertical-align: middle;
+        align-items: center;
+        text-align: center;
+    }
+
+    .aboutus__list__item1 img {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .aboutus__list__item2 img {
+        align-items: center;
+        text-align: center;
+    }
+
+    .toggle {
+        display: block;
+        clear: both;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        width: 100%;
+        color: black;
+        background-color: #fff;
+        opacity: 50%;
+        transition: all .1s linear;
+    }
+
+    .toggle:hover{
+        background-color: #fed136;
+    }
+
+    .notadaptivmenu {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
